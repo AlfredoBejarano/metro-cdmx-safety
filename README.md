@@ -4,7 +4,9 @@ Android app that tells you how secure is your route in the service.
 
 The app contains data from January 2012 to March 2018.
 
-## WIP
+*Inspired by [this web app][https://www.mexico.com/especial/cual-es-la-estacion-mas-peligrosa-en-el-metro-de-cdmx/]*
+
+**WIP**
 
 # Architecture
 
@@ -14,7 +16,7 @@ This app uses the Architecture Components from Google, as specified in the Andro
 - ViewModel: The ViewModel class processes the UI event sent by the UI controller, (ie. consults the local database or process something), the result to the UI controller is reported via **Observation** using the **LiveData** component.
 - Repository: The repository class serves as the single source of truth for the app (and the ViewModel), this class handles from where the data has to come from to be reported to the ViewModel (although in this app we only have a local database as a data source)
 
-![arch](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
+![arch-graph](https://codelabs.developers.google.com/codelabs/android-room-with-a-view/img/3840395bfb3980b8.png)
 
 # Dependencies
 
