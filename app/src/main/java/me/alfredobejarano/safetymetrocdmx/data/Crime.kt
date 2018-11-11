@@ -1,17 +1,21 @@
 package me.alfredobejarano.safetymetrocdmx.data
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 /**
  *
- * Model class that contains data of a crime.
+ * Entity class that contains data of a crime.
  *
  * @author Alfredo Bejarano
  * @since November 09, 2018 - 15:47
  * @version 1.0
  **/
-data class Crime(
+@Entity(tableName = "Crimes")
+data class Crime(    @PrimaryKey(autoGenerate = true)
+    var id: Int,
     /**
      * Describes in which year the crime was committed.
      */
