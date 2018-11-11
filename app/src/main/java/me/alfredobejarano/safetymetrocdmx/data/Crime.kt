@@ -14,7 +14,8 @@ import com.google.gson.annotations.SerializedName
  * @version 1.0
  **/
 @Entity(tableName = "Crimes")
-data class Crime(    @PrimaryKey(autoGenerate = true)
+data class Crime(
+    @PrimaryKey(autoGenerate = true)
     var id: Int,
     /**
      * Describes in which year the crime was committed.
