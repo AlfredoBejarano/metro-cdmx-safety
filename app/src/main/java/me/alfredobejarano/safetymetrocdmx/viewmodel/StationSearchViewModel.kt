@@ -1,11 +1,9 @@
 package me.alfredobejarano.safetymetrocdmx.viewmodel
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.*
 import me.alfredobejarano.safetymetrocdmx.data.Station
 import me.alfredobejarano.safetymetrocdmx.data.StationRepository
+import javax.inject.Inject
 
 /**
  *
@@ -15,15 +13,20 @@ import me.alfredobejarano.safetymetrocdmx.data.StationRepository
  * @since November 12, 2018 - 00:07
  * @version 1.0
  **/
-class StationSearchViewModel(private val repo: StationRepository) : ViewModel() {
+class StationSearchViewModel
+@Inject constructor(private val repo: StationRepository) : ViewModel() {
     /**
      * Defines the origin station chose by the user.
      */
-    private val originStation = MutableLiveData<Station>()
+    private val originStation = MediatorLiveData<Station>()
     /**
      * Defines the destination station chose by the user.
      */
-    private val destinationStation = MutableLiveData<Station>()
+    private val destinationStation = MediatorLiveData<Station>()
+    /**
+     * Defines the results of a station search.
+     */
+    private var searchResults: LiveData<List<Station>> = MediatorLiveData()
 
     /**
      * Defines the value for the origin station.
@@ -56,13 +59,21 @@ class StationSearchViewModel(private val repo: StationRepository) : ViewModel() 
      * the stations that contains the given name.
      * @param name The query to search the station by name.
      */
-    fun searchStation(name: String) = repo.searchStations(query = name)
+    fun searchStation(name: String) {
+        searchResults = Transformations.map(repo.searchStations(query = name)) { it }
+    }
+
+    /**
+     * Provides immutable observation to the UI for a search results.
+     */
+    fun getSearchResults() = searchResults
 
     /**
      * Factory class that tells a lifecycle owner how to create
      * an instance of the [StationSearchViewModel] class.
      */
-    class Factory(private val repo: StationRepository) : ViewModelProvider.Factory {
+    class Factory
+    @Inject constructor(private val repo: StationRepository) : ViewModelProvider.Factory {
         @Suppress("UNCHECKED_CAST")
         override fun <T : ViewModel?> create(modelClass: Class<T>): T =
             StationSearchViewModel(repo) as T

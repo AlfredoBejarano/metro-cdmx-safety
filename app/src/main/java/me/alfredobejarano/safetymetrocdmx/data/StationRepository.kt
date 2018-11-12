@@ -3,6 +3,7 @@ package me.alfredobejarano.safetymetrocdmx.data
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import me.alfredobejarano.safetymetrocdmx.utilities.runOnIOThread
+import javax.inject.Inject
 
 /**
  *
@@ -12,7 +13,8 @@ import me.alfredobejarano.safetymetrocdmx.utilities.runOnIOThread
  * @since November 12, 2018 - 00:10
  * @version 1.0
  **/
-class StationRepository(private val dao: StationDao) {
+class StationRepository
+@Inject constructor(private val dao: StationDao) {
     companion object {
         private const val QUERY_LENGTH_THRESHOLD = 4
     }
@@ -55,7 +57,7 @@ class StationRepository(private val dao: StationDao) {
                     // Search the stations when the query has at least 4 characters.
                     query.length > QUERY_LENGTH_THRESHOLD -> dao.searchStationByName(query)
                     // Return an empty list if the query doesn't match any of the other search criteria.
-                    else -> listOf()
+                    else -> null
                 }
             )
         }
