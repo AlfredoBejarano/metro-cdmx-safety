@@ -1,9 +1,11 @@
 package me.alfredobejarano.safetymetrocdmx.utilities
 
 import android.app.Application
+import android.app.LauncherActivity
 import dagger.Component
 import me.alfredobejarano.safetymetrocdmx.MainActivity
 import me.alfredobejarano.safetymetrocdmx.StationSearchResultsFragment
+import me.alfredobejarano.safetymetrocdmx.data.CrimesRepository
 import me.alfredobejarano.safetymetrocdmx.data.StationRepository
 import javax.inject.Singleton
 
@@ -23,7 +25,7 @@ object Injector {
     val component: AppComponent by lazy {
         DaggerAppComponent.builder()
             .repositoriesModule(RepositoriesModule(app))
-            .viewModelFactoriesModule(ViewModelFactoriesModule())
+            .viewModelFactoriesModule(ViewModelFactoriesModule(app))
             .build()
     }
 
@@ -70,7 +72,18 @@ interface AppComponent {
     fun inject(mainActivity: MainActivity)
 
     /**
+     * Injects all the properties annotated with @Inject.
+     * @param launcherActivity The MainActivity instance to provide injection to.
+     */
+    fun inject(launcherActivity: LauncherActivity)
+
+    /**
      * Provides static injection of a [StationRepository] object.
      */
     fun provideStationRepository(): StationRepository
+
+    /**
+     * Provides static injection of a [CrimesRepository] object.
+     */
+    fun provideCrimesRepository(): CrimesRepository
 }
