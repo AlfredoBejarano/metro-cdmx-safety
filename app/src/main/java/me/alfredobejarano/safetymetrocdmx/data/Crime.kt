@@ -45,8 +45,27 @@ data class Crime(
     var totalCrimes: Int,
     /**
      * Describes the type of crime that was committed.
+     * 
+     * @see CRIME_TYPE_HEALTH
+     * @see CRIME_TYPE_VIOLENT
+     * @see CRIME_TYPE_NON_VIOLENT
      */
     @Expose
     @SerializedName("crime_type")
     var crimeType: String
-)
+) {
+    companion object {
+        /**
+         * Defines a crime committed with non violent methods (pickpocket).
+         */
+        const val CRIME_TYPE_VIOLENT = "Robo con violencia"
+        /**
+         * Defines a crime committed with violence (guns, knifes).
+         */
+        const val CRIME_TYPE_HEALTH = "Delitos contra la salud"
+        /**
+         * Defines a crime against the passengers health (drug abuse).
+         */
+        const val CRIME_TYPE_NON_VIOLENT = "Robo sin violencia"
+    }
+}
