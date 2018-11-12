@@ -37,5 +37,11 @@ interface StationDao {
      * Performs a query to retrieve all the stations containing the query string.
      */
     @Query("SELECT * FROM Stations WHERE name LIKE '%' || :query || '%'")
-    fun searchStationByName(query: String) : LiveData<List<Station>>
+    fun searchStationByName(query: String) : List<Station>
+
+    /**
+     * Retrieves all the stations from the db.
+     */
+    @Query("SELECT * FROM Stations")
+    fun read(): List<Station>
 }
