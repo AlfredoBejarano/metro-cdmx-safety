@@ -31,14 +31,12 @@ class StationRepository
     fun getLine(line: String) = dao.findByLine(line)
 
     /**
-     * Inserts a list of stations to the local database.
-     *
-     * This function is thread safe.
+     * Saves a list of stations in the database.
+     * **Note:** This function **is not THREAD SAFE**.
+     * @param stations The crimes to be saved
      */
-    fun saveStations(stations: List<Station>) = runOnIOThread {
-        stations.forEach {
-            dao.insert(it)
-        }
+    fun saveStations(stations: List<Station>) = stations.forEach {
+        dao.insert(it)
     }
 
     /**
@@ -64,4 +62,10 @@ class StationRepository
         // Return the results as LiveData
         return results
     }
+
+    /**
+     * Retrieves all the stations.
+     * **Note:** this function is **NOT THREAD SAFE**.
+     */
+    fun getStations() = dao.read()
 }
