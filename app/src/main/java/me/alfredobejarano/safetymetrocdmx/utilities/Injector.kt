@@ -7,6 +7,8 @@ import me.alfredobejarano.safetymetrocdmx.MainActivity
 import me.alfredobejarano.safetymetrocdmx.StationSearchResultsFragment
 import me.alfredobejarano.safetymetrocdmx.data.CrimesRepository
 import me.alfredobejarano.safetymetrocdmx.data.StationRepository
+import me.alfredobejarano.safetymetrocdmx.viewmodel.LauncherViewModel
+import me.alfredobejarano.safetymetrocdmx.viewmodel.StationSearchViewModel
 import javax.inject.Singleton
 
 /**
@@ -35,15 +37,11 @@ object Injector {
      * [AppComponent] interface, it will throw a [RuntimeException].
      */
     fun inject(injectedObject: Any) {
-        try {
-            component.javaClass.getMethod("inject", injectedObject.javaClass)
-                .invoke(component, injectedObject)
-        } catch (t: NoSuchMethodException) {
-            throw RuntimeException(
-                "No inject function found for a " +
-                        "${injectedObject.javaClass.name} instance. " +
-                        "is it already added in the AppComponent?"
-            )
+        when (injectedObject) {
+            is MainActivity -> component.inject(injectedObject)
+            is LauncherActivity -> component.inject(injectedObject)
+            is StationSearchResultsFragment -> component.inject(injectedObject)
+            else -> Unit
         }
     }
 
@@ -73,7 +71,7 @@ interface AppComponent {
 
     /**
      * Injects all the properties annotated with @Inject.
-     * @param launcherActivity The MainActivity instance to provide injection to.
+     * @param launcherActivity The LauncherActivity instance to provide injection to.
      */
     fun inject(launcherActivity: LauncherActivity)
 
@@ -86,4 +84,14 @@ interface AppComponent {
      * Provides static injection of a [CrimesRepository] object.
      */
     fun provideCrimesRepository(): CrimesRepository
+
+    /**
+     * Provides static injection of a [LauncherViewModel.Factory] object.
+     */
+    fun provideLauncherViewModelFactory(): LauncherViewModel.Factory
+
+    /**
+     * Provides static injection of a [StationSearchViewModel.Factory] object.
+     */
+    fun StationSearchViewModelFactory(): StationSearchViewModel.Factory
 }

@@ -3,4 +3,5 @@
     <string name="starting_station">Estación de inicio</string>
     <string name="ending_station">Estación final</string>
     <string name="no_results_found">Sin resultados</string>
+    <string name="setting_app_up">realizando la configuración de inicio</string>
 </resources>
