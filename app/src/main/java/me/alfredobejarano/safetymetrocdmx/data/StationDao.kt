@@ -31,5 +31,11 @@ interface StationDao {
      * @return [LiveData] object containing the stations, sorted by its order in the line.
      */
     @Query("SELECT * FROM Stations WHERE line = :line ORDER BY orderInLine ASC")
-    fun readByLine(line: String): List<Station>
+    fun findByLine(line: String): List<Station>
+
+    /**
+     * Performs a query to retrieve all the stations containing the query string.
+     */
+    @Query("SELECT * FROM Stations WHERE name LIKE '%' || :query || '%'")
+    fun searchStationByName(query: String) : LiveData<List<Station>>
 }
