@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SafetyMetroCDMX</string>
-    <string name="where_do_you_come_from">De donde vienes?</string>
+    <string name="starting_station">Estación de inicio</string>
+    <string name="ending_station">Estación final</string>
 </resources>
