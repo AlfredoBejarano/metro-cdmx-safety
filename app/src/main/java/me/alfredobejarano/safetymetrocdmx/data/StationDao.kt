@@ -1,6 +1,6 @@
 package me.alfredobejarano.safetymetrocdmx.data
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy

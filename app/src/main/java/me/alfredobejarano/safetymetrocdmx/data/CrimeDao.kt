@@ -1,6 +1,6 @@
 package me.alfredobejarano.safetymetrocdmx.data
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -30,6 +30,6 @@ interface CrimeDao {
      * @param stationName Name of the station
      * @param crimeType Type of crime committed.
      */
-    @Query("SELECT * FROM Crimes WHERE stationName = :stationName AND crimeType = crimeType")
+    @Query("SELECT * FROM crimes WHERE stationName = :stationName AND crimeType = crimeType")
     fun findByStationNameAndCrimeType(stationName: String, crimeType: Int): List<Station>
 }
