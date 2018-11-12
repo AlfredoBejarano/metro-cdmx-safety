@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import me.alfredobejarano.safetymetrocdmx.adapter.StationSearchResultsAdapter
 import me.alfredobejarano.safetymetrocdmx.data.Station
+import me.alfredobejarano.safetymetrocdmx.utilities.Injector
 import me.alfredobejarano.safetymetrocdmx.utilities.whenNotNullOrEmpty
 import me.alfredobejarano.safetymetrocdmx.viewmodel.StationSearchViewModel
 import javax.inject.Inject
@@ -70,6 +71,7 @@ class StationSearchResultsFragment : Fragment(), StationSearchResultsAdapter.OnR
      */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        Injector.inject(this)
         searchVM.getSearchResults().observe(this, Observer { results ->
             // Get the results list.
             val list = view as RecyclerView

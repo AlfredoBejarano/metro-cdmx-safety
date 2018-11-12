@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.toolbar.*
 import me.alfredobejarano.safetymetrocdmx.StationSearchResultsFragment.Companion.RESULTS_TYPE_DESTINATION
 import me.alfredobejarano.safetymetrocdmx.StationSearchResultsFragment.Companion.RESULTS_TYPE_ORIGIN
 import me.alfredobejarano.safetymetrocdmx.StationSearchResultsFragment.Companion.newInstance
+import me.alfredobejarano.safetymetrocdmx.utilities.Injector
 import me.alfredobejarano.safetymetrocdmx.viewmodel.StationSearchViewModel
 import javax.inject.Inject
 
@@ -40,6 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Injector.inject(this)
         setContentView(R.layout.activity_main)
         searchVM = ViewModelProviders.of(this, searchVMFactory)[StationSearchViewModel::class.java]
         setSearchFieldsListeners()
