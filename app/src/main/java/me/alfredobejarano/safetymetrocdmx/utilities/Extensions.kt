@@ -1,8 +1,14 @@
 package me.alfredobejarano.safetymetrocdmx.utilities
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
+import androidx.appcompat.app.AppCompatActivity
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 /**
  *
@@ -30,3 +36,20 @@ fun <T> Collection<T>?.whenNotNullOrEmpty(
         g(this)
     }
 }
+
+/**
+ * Shorthand function for navigation through activities.
+ */
+fun <A : AppCompatActivity> Context.navigateTo(destination: Class<A>, arguments: Bundle?) {
+    this.startActivity(Intent(this, destination).apply {
+        arguments?.let {
+            this.putExtras(it)
+        }
+    })
+}
+
+/**
+ * Retrieves the type of a [Collection].
+ */
+inline fun <reified T> Gson.fromJson(json: String) =
+    this.fromJson<T>(json, object : TypeToken<T>() {}.type)
