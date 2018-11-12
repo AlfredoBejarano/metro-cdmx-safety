@@ -46,28 +46,5 @@ data class Crime(
      */
     @Expose
     @SerializedName("crime_type")
-    var crimeType: CrimeType
-) {
-    /**
-     *
-     * Enum class that describes the type of crimes that were reported.
-     *
-     * @author Alfredo Bejarano
-     * @since November 09, 2018 - 15:48
-     * @version 1.0
-     **/
-    enum class CrimeType {
-        /**
-         * Describes that a crime was made with violence (knife, guns).
-         */
-        WITH_VIOLENCE,
-        /**
-         * Describes a crime without violence (pickpocketing).
-         */
-        WITHOUT_VIOLENCE,
-        /**
-         * Describes a crime against the health of the users (drug abuse).
-         */
-        HEALTH
-    }
-}
+    var crimeType: String
+)
