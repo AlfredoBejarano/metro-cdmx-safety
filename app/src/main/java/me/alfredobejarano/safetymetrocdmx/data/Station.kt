@@ -16,9 +16,6 @@ import com.google.gson.annotations.SerializedName
  **/
 @Entity(tableName = "Stations")
 data class Station(
-    @ColumnInfo(name = "pk")
-    @PrimaryKey(autoGenerate = true)
-    val id: Int,
     @Expose
     @SerializedName("Nombre")
     val name: String,
@@ -26,6 +23,10 @@ data class Station(
     @SerializedName("Línea")
     val line: String,
     @Expose
+    @ColumnInfo(name = "orderInLine")
     @SerializedName("Orden")
-    val order: Int
+    val order: Int,
+    @ColumnInfo(name = "pk")
+    @PrimaryKey(autoGenerate = false)
+    val id: String = "$name-$line"
 )

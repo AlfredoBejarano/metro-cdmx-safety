@@ -9,27 +9,27 @@ import androidx.room.Query
 /**
  *
  * Database Access Object class to be implemented by Room
- * to provide operations for the [Crime] entity.
+ * to provide operations for the [Station] entity.
  *
  * @author Alfredo Bejarano
- * @since November 11, 2018 - 23:37
+ * @since November 11, 2018 - 23:49
  * @version 1.0
  **/
 @Dao
-interface CrimeDao {
+interface StationDao {
     /**
      * Inserts a [Crime] record into the local database.
      * If there is a conflict (duplicates), the duplicate
      * insertion attempt is ignored.
      */
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insert(crime: Crime)
+    fun insert(station: Station)
 
     /**
-     * Finds all the crimes with the given station name and crime type.
-     * @param stationName Name of the station
-     * @param crimeType Type of crime committed.
+     * Retrieves all the stations from a given line.
+     * @param line The line name to fetch stations from.
+     * @return [LiveData] object containing the stations, sorted by its order in the line.
      */
-    @Query("SELECT * FROM Crimes WHERE stationName = :stationName AND crimeType = crimeType")
-    fun findByStationNameAndCrimeType(stationName: String, crimeType: Int): List<Station>
+    @Query("SELECT * FROM Stations WHERE line = :line ORDER BY orderInLine ASC")
+    fun readByLine(line: String): List<Station>
 }
