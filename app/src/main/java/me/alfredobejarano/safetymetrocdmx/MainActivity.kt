@@ -23,9 +23,10 @@ class MainActivity : AppCompatActivity() {
      * Defines the behaviour when a search field text changes.
      */
     private val searchTextWatcher = object : TextWatcher {
-        override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) = Unit
+        override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) =
+            searchVM.searchStation(s?.toString() ?: "")
         override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) = Unit
-        override fun afterTextChanged(s: Editable?) = searchVM.searchStation(s?.toString() ?: "")
+        override fun afterTextChanged(s: Editable?) = Unit
     }
     /**
      * Defines the click behaviour of a search view.

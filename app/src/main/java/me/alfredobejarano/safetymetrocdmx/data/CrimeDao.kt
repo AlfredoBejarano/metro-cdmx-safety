@@ -30,12 +30,12 @@ interface CrimeDao {
      * @param stationName Name of the station
      * @param crimeType Type of crime committed.
      */
-    @Query("SELECT * FROM crimes WHERE stationName = :stationName AND crimeType = :crimeType")
+    @Query("SELECT * FROM Crimes WHERE stationName = :stationName AND crimeType = :crimeType")
     fun findByStationNameAndCrimeType(stationName: String, crimeType: String): List<Crime>
 
     /**
      * Retrieves all the crimes from the database.
      */
-    @Query("SELECT * FROM crimes")
+    @Query("SELECT * FROM Crimes")
     fun read(): List<Crime>
 }

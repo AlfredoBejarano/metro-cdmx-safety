@@ -25,7 +25,7 @@ class LauncherActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Injector.initialize(application)
         Injector.inject(this)
-        val viewModel = ViewModelProviders.of(this, vmFactory)[LauncherViewModel::class.java]
+        viewModel = ViewModelProviders.of(this, vmFactory)[LauncherViewModel::class.java]
         viewModel.checkDatabaseRegistry().observe(this, Observer {
             navigateOnResult(it) { observeDatabaseFilling() }
         })

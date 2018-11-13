@@ -1,8 +1,8 @@
 package me.alfredobejarano.safetymetrocdmx.utilities
 
 import android.app.Application
-import android.app.LauncherActivity
 import dagger.Component
+import me.alfredobejarano.safetymetrocdmx.LauncherActivity
 import me.alfredobejarano.safetymetrocdmx.MainActivity
 import me.alfredobejarano.safetymetrocdmx.StationSearchResultsFragment
 import me.alfredobejarano.safetymetrocdmx.data.CrimesRepository
@@ -37,11 +37,15 @@ object Injector {
      * [AppComponent] interface, it will throw a [RuntimeException].
      */
     fun inject(injectedObject: Any) {
-        when (injectedObject) {
-            is MainActivity -> component.inject(injectedObject)
-            is LauncherActivity -> component.inject(injectedObject)
-            is StationSearchResultsFragment -> component.inject(injectedObject)
-            else -> Unit
+        try {
+            component.javaClass.getMethod("inject", injectedObject.javaClass)
+                .invoke(component, injectedObject)
+        } catch (t: NoSuchMethodException) {
+            throw RuntimeException(
+                "No inject function found for a " +
+                        "${injectedObject.javaClass.name} instance. " +
+                        "is it already added in the AppComponent?"
+            )
         }
     }
 
@@ -93,5 +97,5 @@ interface AppComponent {
     /**
      * Provides static injection of a [StationSearchViewModel.Factory] object.
      */
-    fun StationSearchViewModelFactory(): StationSearchViewModel.Factory
+    fun provideStationSearchViewModelFactory(): StationSearchViewModel.Factory
 }

@@ -14,7 +14,7 @@ import com.google.gson.annotations.SerializedName
  * @since November 09, 2018 - 15:47
  * @version 1.0
  **/
-@Entity(tableName = "crimes")
+@Entity(tableName = "Crimes")
 data class Crime(
     @ColumnInfo(name = "pk")
     @PrimaryKey(autoGenerate = true)

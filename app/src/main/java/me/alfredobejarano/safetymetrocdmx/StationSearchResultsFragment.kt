@@ -62,8 +62,6 @@ class StationSearchResultsFragment : Fragment(), StationSearchResultsAdapter.OnR
         RecyclerView(requireContext()).apply {
             // Assign a LinearLayoutManager when creating the RecyclerView.
             this.layoutManager = LinearLayoutManager(this.context)
-            // Retrieve the ViewModel from the activity.
-            searchVM = ViewModelProviders.of(requireActivity(), searchVMFactory)[StationSearchViewModel::class.java]
         }
 
     /**
@@ -72,6 +70,9 @@ class StationSearchResultsFragment : Fragment(), StationSearchResultsAdapter.OnR
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         Injector.inject(this)
+        // Retrieve the ViewModel from the activity.
+        searchVM = ViewModelProviders.of(requireActivity(), searchVMFactory)[StationSearchViewModel::class.java]
+        // Observe the results.
         searchVM.getSearchResults().observe(this, Observer { results ->
             // Get the results list.
             val list = view as RecyclerView
@@ -90,6 +91,8 @@ class StationSearchResultsFragment : Fragment(), StationSearchResultsAdapter.OnR
                 }
             })
         })
+        // Used for fetching all the stations at startup.
+        searchVM.searchStation("")
     }
 
     /**

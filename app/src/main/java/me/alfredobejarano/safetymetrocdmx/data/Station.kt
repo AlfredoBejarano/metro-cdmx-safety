@@ -25,8 +25,9 @@ data class Station(
     @Expose
     @ColumnInfo(name = "orderInLine")
     @SerializedName("Orden")
-    val order: Int,
+    val order: Int
+) {
     @ColumnInfo(name = "pk")
     @PrimaryKey(autoGenerate = false)
-    val id: String = "$name-$line"
-)
+    var id: String = ""
+}

@@ -22,7 +22,7 @@ interface StationDao {
      * If there is a conflict (duplicates), the duplicate
      * insertion attempt is ignored.
      */
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(station: Station)
 
     /**

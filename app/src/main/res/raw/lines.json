@@ -1,986 +1,962 @@
-{
-  "1": [
-    {
-      "Nombre": "Balderas",
-      "Línea": "1",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Boulevard Puerto Aéreo",
-      "Línea": "1",
-      "Orden":"16"
-    },
-    {
-      "Nombre": "Candelaria",
-      "Línea": "1",
-      "Orden":"12"
-    },
-    {
-      "Nombre": "Chapultepec",
-      "Línea": "1",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Gómez Farías",
-      "Línea": "1",
-      "Orden":"17"
-    },
-    {
-      "Nombre": "Insurgentes",
-      "Línea": "1",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Isabel la Católica",
-      "Línea": "1",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Merced",
-      "Línea": "1",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "Moctezuma",
-      "Línea": "1",
-      "Orden":"14"
-    },
-    {
-      "Nombre": "Pantitlán",
-      "Línea": "1",
-      "Orden":"19"
-    },
-    {
-      "Nombre": "Pino Suárez",
-      "Línea": "1",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Salto del Agua",
-      "Línea": "1",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "San Lázaro",
-      "Línea": "1",
-      "Orden":"13"
-    },
-    {
-      "Nombre": "Tacubaya",
-      "Línea": "1",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Zaragoza",
-      "Línea": "1",
-      "Orden":"18"
-    },
-    {
-      "Nombre": "Cuauhtémoc",
-      "Línea": "1",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Observatorio",
-      "Línea": "1",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Sevilla",
-      "Línea": "1",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Balbuena",
-      "Línea": "1",
-      "Orden":"15"
-    },
-    {
-      "Nombre": "Juanacatlán",
-      "Línea": "1",
-      "Orden":"2"
-    }
-  ],
-  "2": [
-    {
-      "Nombre": "Allende",
-      "Línea": "2",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "Bellas Artes",
-      "Línea": "2",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Chabacano",
-      "Línea": "2",
-      "Orden":"15"
-    },
-    {
-      "Nombre": "Cuatro Caminos",
-      "Línea": "2",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Cuitláhuac",
-      "Línea": "2",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Hidalgo",
-      "Línea": "2",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Normal",
-      "Línea": "2",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Pino Suárez",
-      "Línea": "2",
-      "Orden":"13"
-    },
-    {
-      "Nombre": "Popotla",
-      "Línea": "2",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Revolución",
-      "Línea": "2",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "San Antonio Abad",
-      "Línea": "2",
-      "Orden":"14"
-    },
-    {
-      "Nombre": "San Cosme",
-      "Línea": "2",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Tacuba",
-      "Línea": "2",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Tasqueña",
-      "Línea": "2",
-      "Orden":"23"
-    },
-    {
-      "Nombre": "Viaducto",
-      "Línea": "2",
-      "Orden":"16"
-    },
-    {
-      "Nombre": "Zócalo",
-      "Línea": "2",
-      "Orden":"12"
-    },
-    {
-      "Nombre": "Colegio Militar",
-      "Línea": "2",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Ermita",
-      "Línea": "2",
-      "Orden":"21"
-    },
-    {
-      "Nombre": "Nativitas",
-      "Línea": "2",
-      "Orden":"19"
-    },
-    {
-      "Nombre": "Xola",
-      "Línea": "2",
-      "Orden":"17"
-    },
-    {
-      "Nombre": "Portales",
-      "Línea": "2",
-      "Orden":"20"
-    },
-    {
-      "Nombre": "Villa de Cortés",
-      "Línea": "2",
-      "Orden":"18"
-    },
-    {
-      "Nombre": "Panteones",
-      "Línea": "2",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "General Anaya",
-      "Línea": "2",
-      "Orden":"22"
-    }
-  ],
-  "3": [
-    {
-      "Nombre": "Balderas",
-      "Línea": "3",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "Centro Médico",
-      "Línea": "3",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "Coyoacán",
-      "Línea": "3",
-      "Orden":"17"
-    },
-    {
-      "Nombre": "Deportivo 18 de Marzo",
-      "Línea": "3",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "División del Norte",
-      "Línea": "3",
-      "Orden":"14"
-    },
-    {
-      "Nombre": "Eugenia",
-      "Línea": "3",
-      "Orden":"13"
-    },
-    {
-      "Nombre": "Guerrero",
-      "Línea": "3",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Hidalgo",
-      "Línea": "3",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Hospital General",
-      "Línea": "3",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Indios Verdes",
-      "Línea": "3",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Juárez",
-      "Línea": "3",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "La Raza",
-      "Línea": "3",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Universidad",
-      "Línea": "3",
-      "Orden":"20"
-    },
-    {
-      "Nombre": "Viveros",
-      "Línea": "3",
-      "Orden":"17"
-    },
-    {
-      "Nombre": "Zapata",
-      "Línea": "3",
-      "Orden":"15"
-    },
-    {
-      "Nombre": "Miguel Ángel de Quevedo",
-      "Línea": "3",
-      "Orden":"18"
-    },
-    {
-      "Nombre": "Niños Héroes",
-      "Línea": "3",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Potrero",
-      "Línea": "3",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Copilco",
-      "Línea": "3",
-      "Orden":"20"
-    },
-    {
-      "Nombre": "Etiopía",
-      "Línea": "3",
-      "Orden":"12"
-    },
-    {
-      "Nombre": "Tlatelolco",
-      "Línea": "3",
-      "Orden":"4"
-    }
-  ],
-  "4": [
-    {
-      "Nombre": "Candelaria",
-      "Línea": "4",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Consulado",
-      "Línea": "4",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Fray Servando",
-      "Línea": "4",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Jamaica",
-      "Línea": "4",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "Martín Carrera",
-      "Línea": "4",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Morelos",
-      "Línea": "4",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Santa Anita",
-      "Línea": "4",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Talismán",
-      "Línea": "4",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Bondojito",
-      "Línea": "4",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Canal del Norte",
-      "Línea": "4",
-      "Orden":"4"
-    }
-  ],
-  "5": [
-    {
-      "Nombre": "Autobuses del Norte",
-      "Línea": "5",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Consulado",
-      "Línea": "5",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Hangares",
-      "Línea": "5",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Instituto del Petróleo",
-      "Línea": "5",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "La Raza",
-      "Línea": "5",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Misterios",
-      "Línea": "5",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "Oceanía",
-      "Línea": "5",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Pantitlán",
-      "Línea": "5",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Politécnico",
-      "Línea": "5",
-      "Orden":"12"
-    },
-    {
-      "Nombre": "Terminal Aérea",
-      "Línea": "5",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Aragón",
-      "Línea": "5",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Eduardo Molina",
-      "Línea": "5",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Valle Gómez",
-      "Línea": "5",
-      "Orden":"7"
-    }
-  ],
-  "6": [
-    {
-      "Nombre": "Azcapotzalco",
-      "Línea": "6",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "La Villa-Basílica",
-      "Línea": "6",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Lindavista",
-      "Línea": "6",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Martín Carrera",
-      "Línea": "6",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Deportivo 18 de Marzo",
-      "Línea": "6",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "El Rosario",
-      "Línea": "6",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Ferrería",
-      "Línea": "6",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Instituto del Petróleo",
-      "Línea": "6",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Tezozómoc",
-      "Línea": "6",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Vallejo",
-      "Línea": "6",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Norte 45",
-      "Línea": "6",
-      "Orden":"4"
-    }
-  ],
-  "7": [
-    {
-      "Nombre": "Aquiles Serdán",
-      "Línea": "7",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Camarones",
-      "Línea": "7",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "El Rosario",
-      "Línea": "7",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "San Joaquín",
-      "Línea": "7",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Tacuba",
-      "Línea": "7",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Tacubaya",
-      "Línea": "7",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Auditorio",
-      "Línea": "7",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Barranca del Muerto",
-      "Línea": "7",
-      "Orden":"13"
-    },
-    {
-      "Nombre": "Constituyentes",
-      "Línea": "7",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "San Pedro de los Pinos",
-      "Línea": "7",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Mixcoac",
-      "Línea": "7",
-      "Orden":"12"
-    },
-    {
-      "Nombre": "Refinería",
-      "Línea": "7",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Polanco",
-      "Línea": "7",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "San Antonio",
-      "Línea": "7",
-      "Orden":"11"
-    }
-  ],
-  "8": [
-    {
-      "Nombre": "Aculco",
-      "Línea": "8",
-      "Orden":"12"
-    },
-    {
-      "Nombre": "Apatlaco",
-      "Línea": "8",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "Chabacano",
-      "Línea": "8",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Constitución de 1917",
-      "Línea": "8",
-      "Orden":"18"
-    },
-    {
-      "Nombre": "Coyuya",
-      "Línea": "8",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Garibaldi",
-      "Línea": "8",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Salto del Agua",
-      "Línea": "8",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "San Juan de Letrán",
-      "Línea": "8",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "UAM-I",
-      "Línea": "8",
-      "Orden":"17"
-    },
-    {
-      "Nombre": "Atlalilco",
-      "Línea": "8",
-      "Orden":"14"
-    },
-    {
-      "Nombre": "Iztacalco",
-      "Línea": "8",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Iztapalapa",
-      "Línea": "8",
-      "Orden":"15"
-    },
-    {
-      "Nombre": "Bellas Artes",
-      "Línea": "8",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Obrera",
-      "Línea": "8",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Santa Anita",
-      "Línea": "8",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "Cerro de la Estrella",
-      "Línea": "8",
-      "Orden":"16"
-    },
-    {
-      "Nombre": "Doctores",
-      "Línea": "8",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Escuadrón 201",
-      "Línea": "8",
-      "Orden":"13"
-    }
-  ],
-  "9": [
-    {
-      "Nombre": "Centro Médico",
-      "Línea": "9",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Chabacano",
-      "Línea": "9",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Jamaica",
-      "Línea": "9",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Lázaro Cárdenas",
-      "Línea": "9",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Mixiuhca",
-      "Línea": "9",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Pantitlán",
-      "Línea": "9",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "Puebla",
-      "Línea": "9",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Tacubaya",
-      "Línea": "9",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Velódromo",
-      "Línea": "9",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "Chilpancingo",
-      "Línea": "9",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Patriotismo",
-      "Línea": "9",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Ciudad Deportiva",
-      "Línea": "9",
-      "Orden":"9"
-    }
-  ],
-  "A": [
-    {
-      "Nombre": "Acatitla",
-      "Línea": "A",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Agrícola Oriental",
-      "Línea": "A",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Canal de San Juan",
-      "Línea": "A",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Guelatao",
-      "Línea": "A",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Los Reyes",
-      "Línea": "A",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "Pantitlán",
-      "Línea": "A",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Santa Marta",
-      "Línea": "A",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Peñón Viejo",
-      "Línea": "A",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "La Paz",
-      "Línea": "A",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Tepalcates",
-      "Línea": "A",
-      "Orden":"3"
-    }
-  ],
-  "B": [
-    {
-      "Nombre": "Bosque de Aragón",
-      "Línea": "B",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Buenavista",
-      "Línea": "B",
-      "Orden":"20"
-    },
-    {
-      "Nombre": "Ciudad Azteca",
-      "Línea": "B",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Deportivo Oceanía",
-      "Línea": "B",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Ecatepec",
-      "Línea": "B",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Garibaldi",
-      "Línea": "B",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Guerrero",
-      "Línea": "B",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Impulsora",
-      "Línea": "B",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Lagunilla",
-      "Línea": "B",
-      "Orden":"17"
-    },
-    {
-      "Nombre": "Muzquiz",
-      "Línea": "B",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "Nezahualcóyotl",
-      "Línea": "B",
-      "Orden":"7"
-    },
-    {
-      "Nombre": "Oceanía",
-      "Línea": "B",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "Ricardo Flores Magón",
-      "Línea": "B",
-      "Orden":"13"
-    },
-    {
-      "Nombre": "Río de los Remedios",
-      "Línea": "B",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Romero Rubio",
-      "Línea": "B",
-      "Orden":"12"
-    },
-    {
-      "Nombre": "San Lázaro",
-      "Línea": "B",
-      "Orden":"14"
-    },
-    {
-      "Nombre": "Tepito",
-      "Línea": "B",
-      "Orden":"16"
-    },
-    {
-      "Nombre": "Villa de Aragón",
-      "Línea": "B",
-      "Orden":"8"
-    },
-    {
-      "Nombre": "Morelos",
-      "Línea": "B",
-      "Orden":"15"
-    },
-    {
-      "Nombre": "Olímpica",
-      "Línea": "B",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Plaza Aragón",
-      "Línea": "B",
-      "Orden":"1"
-    }
-  ],
-  "12": [
-    {
-      "Nombre": "Mexicaltzingo",
-      "Línea": "12",
-      "Orden":""
-    },
-    {
-      "Nombre": "Atlalilco",
-      "Línea": "12",
-      "Orden":""
-    },
-    {
-      "Nombre": "Hospital 20 de Noviembre",
-      "Línea": "12",
-      "Orden":"2"
-    },
-    {
-      "Nombre": "Tezonco",
-      "Línea": "12",
-      "Orden":""
-    },
-    {
-      "Nombre": "Tláhuac",
-      "Línea": "12",
-      "Orden":""
-    },
-    {
-      "Nombre": "Eje Central",
-      "Línea": "12",
-      "Orden":"5"
-    },
-    {
-      "Nombre": "Zapotitlán",
-      "Línea": "12",
-      "Orden":"17"
-    },
-    {
-      "Nombre": "Zapata",
-      "Línea": "12",
-      "Orden":"3"
-    },
-    {
-      "Nombre": "Olivos",
-      "Línea": "12",
-      "Orden":"15"
-    },
-    {
-      "Nombre": "Mixcoac",
-      "Línea": "12",
-      "Orden":"0"
-    },
-    {
-      "Nombre": "Nopalera",
-      "Línea": "12",
-      "Orden":"16"
-    },
-    {
-      "Nombre": "Ermita",
-      "Línea": "12",
-      "Orden":"6"
-    },
-    {
-      "Nombre": "Culhuacán",
-      "Línea": "12",
-      "Orden":"9"
-    },
-    {
-      "Nombre": "Parque de los Venados",
-      "Línea": "12",
-      "Orden":"4"
-    },
-    {
-      "Nombre": "San Andrés Tomatlán",
-      "Línea": "12",
-      "Orden":"10"
-    },
-    {
-      "Nombre": "Lomas Estrella",
-      "Línea": "12",
-      "Orden":"11"
-    },
-    {
-      "Nombre": "Insurgentes Sur",
-      "Línea": "12",
-      "Orden":"1"
-    },
-    {
-      "Nombre": "Periférico Oriente",
-      "Línea": "12",
-      "Orden":"13"
-    }
-  ]
-}
+[
+  {
+    "Nombre": "Balderas",
+    "Línea": "1",
+    "Orden": "7"
+  },
+  {
+    "Nombre": "Boulevard Puerto Aéreo",
+    "Línea": "1",
+    "Orden": "16"
+  },
+  {
+    "Nombre": "Candelaria",
+    "Línea": "1",
+    "Orden": "12"
+  },
+  {
+    "Nombre": "Chapultepec",
+    "Línea": "1",
+    "Orden": "3"
+  },
+  {
+    "Nombre": "Gómez Farías",
+    "Línea": "1",
+    "Orden": "17"
+  },
+  {
+    "Nombre": "Insurgentes",
+    "Línea": "1",
+    "Orden": "5"
+  },
+  {
+    "Nombre": "Isabel la Católica",
+    "Línea": "1",
+    "Orden": "9"
+  },
+  {
+    "Nombre": "Merced",
+    "Línea": "1",
+    "Orden": "11"
+  },
+  {
+    "Nombre": "Moctezuma",
+    "Línea": "1",
+    "Orden": "14"
+  },
+  {
+    "Nombre": "Pantitlán",
+    "Línea": "1",
+    "Orden": "19"
+  },
+  {
+    "Nombre": "Pino Suárez",
+    "Línea": "1",
+    "Orden": "10"
+  },
+  {
+    "Nombre": "Salto del Agua",
+    "Línea": "1",
+    "Orden": "8"
+  },
+  {
+    "Nombre": "San Lázaro",
+    "Línea": "1",
+    "Orden": "13"
+  },
+  {
+    "Nombre": "Tacubaya",
+    "Línea": "1",
+    "Orden": "1"
+  },
+  {
+    "Nombre": "Zaragoza",
+    "Línea": "1",
+    "Orden": "18"
+  },
+  {
+    "Nombre": "Cuauhtémoc",
+    "Línea": "1",
+    "Orden": "6"
+  },
+  {
+    "Nombre": "Observatorio",
+    "Línea": "1",
+    "Orden": "0"
+  },
+  {
+    "Nombre": "Sevilla",
+    "Línea": "1",
+    "Orden": "4"
+  },
+  {
+    "Nombre": "Balbuena",
+    "Línea": "1",
+    "Orden": "15"
+  },
+  {
+    "Nombre": "Juanacatlán",
+    "Línea": "1",
+    "Orden": "2"
+  },
+  {
+    "Nombre": "Allende",
+    "Línea": "2",
+    "Orden": "11"
+  },
+  {
+    "Nombre": "Bellas Artes",
+    "Línea": "2",
+    "Orden": "10"
+  },
+  {
+    "Nombre": "Chabacano",
+    "Línea": "2",
+    "Orden": "15"
+  },
+  {
+    "Nombre": "Cuatro Caminos",
+    "Línea": "2",
+    "Orden": "0"
+  },
+  {
+    "Nombre": "Cuitláhuac",
+    "Línea": "2",
+    "Orden": "3"
+  },
+  {
+    "Nombre": "Hidalgo",
+    "Línea": "2",
+    "Orden": "9"
+  },
+  {
+    "Nombre": "Normal",
+    "Línea": "2",
+    "Orden": "6"
+  },
+  {
+    "Nombre": "Pino Suárez",
+    "Línea": "2",
+    "Orden": "13"
+  },
+  {
+    "Nombre": "Popotla",
+    "Línea": "2",
+    "Orden": "4"
+  },
+  {
+    "Nombre": "Revolución",
+    "Línea": "2",
+    "Orden": "8"
+  },
+  {
+    "Nombre": "San Antonio Abad",
+    "Línea": "2",
+    "Orden": "14"
+  },
+  {
+    "Nombre": "San Cosme",
+    "Línea": "2",
+    "Orden": "7"
+  },
+  {
+    "Nombre": "Tacuba",
+    "Línea": "2",
+    "Orden": "2"
+  },
+  {
+    "Nombre": "Tasqueña",
+    "Línea": "2",
+    "Orden": "23"
+  },
+  {
+    "Nombre": "Viaducto",
+    "Línea": "2",
+    "Orden": "16"
+  },
+  {
+    "Nombre": "Zócalo",
+    "Línea": "2",
+    "Orden": "12"
+  },
+  {
+    "Nombre": "Colegio Militar",
+    "Línea": "2",
+    "Orden": "5"
+  },
+  {
+    "Nombre": "Ermita",
+    "Línea": "2",
+    "Orden": "21"
+  },
+  {
+    "Nombre": "Nativitas",
+    "Línea": "2",
+    "Orden": "19"
+  },
+  {
+    "Nombre": "Xola",
+    "Línea": "2",
+    "Orden": "17"
+  },
+  {
+    "Nombre": "Portales",
+    "Línea": "2",
+    "Orden": "20"
+  },
+  {
+    "Nombre": "Villa de Cortés",
+    "Línea": "2",
+    "Orden": "18"
+  },
+  {
+    "Nombre": "Panteones",
+    "Línea": "2",
+    "Orden": "1"
+  },
+  {
+    "Nombre": "General Anaya",
+    "Línea": "2",
+    "Orden": "22"
+  },
+  {
+    "Nombre": "Balderas",
+    "Línea": "3",
+    "Orden": "8"
+  },
+  {
+    "Nombre": "Centro Médico",
+    "Línea": "3",
+    "Orden": "11"
+  },
+  {
+    "Nombre": "Coyoacán",
+    "Línea": "3",
+    "Orden": "17"
+  },
+  {
+    "Nombre": "Deportivo 18 de Marzo",
+    "Línea": "3",
+    "Orden": "1"
+  },
+  {
+    "Nombre": "División del Norte",
+    "Línea": "3",
+    "Orden": "14"
+  },
+  {
+    "Nombre": "Eugenia",
+    "Línea": "3",
+    "Orden": "13"
+  },
+  {
+    "Nombre": "Guerrero",
+    "Línea": "3",
+    "Orden": "5"
+  },
+  {
+    "Nombre": "Hidalgo",
+    "Línea": "3",
+    "Orden": "6"
+  },
+  {
+    "Nombre": "Hospital General",
+    "Línea": "3",
+    "Orden": "10"
+  },
+  {
+    "Nombre": "Indios Verdes",
+    "Línea": "3",
+    "Orden": "0"
+  },
+  {
+    "Nombre": "Juárez",
+    "Línea": "3",
+    "Orden": "8"
+  },
+  {
+    "Nombre": "La Raza",
+    "Línea": "3",
+    "Orden": "3"
+  },
+  {
+    "Nombre": "Universidad",
+    "Línea": "3",
+    "Orden": "20"
+  },
+  {
+    "Nombre": "Viveros",
+    "Línea": "3",
+    "Orden": "17"
+  },
+  {
+    "Nombre": "Zapata",
+    "Línea": "3",
+    "Orden": "15"
+  },
+  {
+    "Nombre": "Miguel Ángel de Quevedo",
+    "Línea": "3",
+    "Orden": "18"
+  },
+  {
+    "Nombre": "Niños Héroes",
+    "Línea": "3",
+    "Orden": "9"
+  },
+  {
+    "Nombre": "Potrero",
+    "Línea": "3",
+    "Orden": "2"
+  },
+  {
+    "Nombre": "Copilco",
+    "Línea": "3",
+    "Orden": "20"
+  },
+  {
+    "Nombre": "Etiopía",
+    "Línea": "3",
+    "Orden": "12"
+  },
+  {
+    "Nombre": "Tlatelolco",
+    "Línea": "3",
+    "Orden": "4"
+  },
+  {
+    "Nombre": "Candelaria",
+    "Línea": "4",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "Consulado",
+    "Línea": "4",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "Fray Servando",
+    "Línea": "4",
+    "Orden":"7"
+  },
+  {
+    "Nombre": "Jamaica",
+    "Línea": "4",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "Martín Carrera",
+    "Línea": "4",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "Morelos",
+    "Línea": "4",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "Santa Anita",
+    "Línea": "4",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Talismán",
+    "Línea": "4",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Bondojito",
+    "Línea": "4",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "Canal del Norte",
+    "Línea": "4",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Autobuses del Norte",
+    "Línea": "5",
+    "Orden":"10"
+  },
+  {
+    "Nombre": "Consulado",
+    "Línea": "5",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "Hangares",
+    "Línea": "5",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Instituto del Petróleo",
+    "Línea": "5",
+    "Orden":"11"
+  },
+  {
+    "Nombre": "La Raza",
+    "Línea": "5",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Misterios",
+    "Línea": "5",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "Oceanía",
+    "Línea": "5",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "Pantitlán",
+    "Línea": "5",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "Politécnico",
+    "Línea": "5",
+    "Orden":"12"
+  },
+  {
+    "Nombre": "Terminal Aérea",
+    "Línea": "5",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "Aragón",
+    "Línea": "5",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Eduardo Molina",
+    "Línea": "5",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "Valle Gómez",
+    "Línea": "5",
+    "Orden":"7"
+  },
+  {
+    "Nombre": "Azcapotzalco",
+    "Línea": "6",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "La Villa-Basílica",
+    "Línea": "6",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Lindavista",
+    "Línea": "6",
+    "Orden":"7"
+  },
+  {
+    "Nombre": "Martín Carrera",
+    "Línea": "6",
+    "Orden":"10"
+  },
+  {
+    "Nombre": "Deportivo 18 de Marzo",
+    "Línea": "6",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "El Rosario",
+    "Línea": "6",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "Ferrería",
+    "Línea": "6",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "Instituto del Petróleo",
+    "Línea": "6",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "Tezozómoc",
+    "Línea": "6",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Vallejo",
+    "Línea": "6",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "Norte 45",
+    "Línea": "6",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Aquiles Serdán",
+    "Línea": "7",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Camarones",
+    "Línea": "7",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "El Rosario",
+    "Línea": "7",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "San Joaquín",
+    "Línea": "7",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "Tacuba",
+    "Línea": "7",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Tacubaya",
+    "Línea": "7",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Auditorio",
+    "Línea": "7",
+    "Orden":"7"
+  },
+  {
+    "Nombre": "Barranca del Muerto",
+    "Línea": "7",
+    "Orden":"13"
+  },
+  {
+    "Nombre": "Constituyentes",
+    "Línea": "7",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "San Pedro de los Pinos",
+    "Línea": "7",
+    "Orden":"10"
+  },
+  {
+    "Nombre": "Mixcoac",
+    "Línea": "7",
+    "Orden":"12"
+  },
+  {
+    "Nombre": "Refinería",
+    "Línea": "7",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "Polanco",
+    "Línea": "7",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "San Antonio",
+    "Línea": "7",
+    "Orden":"11"
+  },
+  {
+    "Nombre": "Aculco",
+    "Línea": "8",
+    "Orden":"12"
+  },
+  {
+    "Nombre": "Apatlaco",
+    "Línea": "8",
+    "Orden":"11"
+  },
+  {
+    "Nombre": "Chabacano",
+    "Línea": "8",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "Constitución de 1917",
+    "Línea": "8",
+    "Orden":"18"
+  },
+  {
+    "Nombre": "Coyuya",
+    "Línea": "8",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Garibaldi",
+    "Línea": "8",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "Salto del Agua",
+    "Línea": "8",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "San Juan de Letrán",
+    "Línea": "8",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "UAM-I",
+    "Línea": "8",
+    "Orden":"17"
+  },
+  {
+    "Nombre": "Atlalilco",
+    "Línea": "8",
+    "Orden":"14"
+  },
+  {
+    "Nombre": "Iztacalco",
+    "Línea": "8",
+    "Orden":"10"
+  },
+  {
+    "Nombre": "Iztapalapa",
+    "Línea": "8",
+    "Orden":"15"
+  },
+  {
+    "Nombre": "Bellas Artes",
+    "Línea": "8",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Obrera",
+    "Línea": "8",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "Santa Anita",
+    "Línea": "8",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "Cerro de la Estrella",
+    "Línea": "8",
+    "Orden":"16"
+  },
+  {
+    "Nombre": "Doctores",
+    "Línea": "8",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Escuadrón 201",
+    "Línea": "8",
+    "Orden":"13"
+  },
+  {
+    "Nombre": "Centro Médico",
+    "Línea": "9",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "Chabacano",
+    "Línea": "9",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "Jamaica",
+    "Línea": "9",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "Lázaro Cárdenas",
+    "Línea": "9",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Mixiuhca",
+    "Línea": "9",
+    "Orden":"7"
+  },
+  {
+    "Nombre": "Pantitlán",
+    "Línea": "9",
+    "Orden":"11"
+  },
+  {
+    "Nombre": "Puebla",
+    "Línea": "9",
+    "Orden":"10"
+  },
+  {
+    "Nombre": "Tacubaya",
+    "Línea": "9",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "Velódromo",
+    "Línea": "9",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "Chilpancingo",
+    "Línea": "9",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "Patriotismo",
+    "Línea": "9",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Ciudad Deportiva",
+    "Línea": "9",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Acatitla",
+    "Línea": "A",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "Agrícola Oriental",
+    "Línea": "A",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Canal de San Juan",
+    "Línea": "A",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "Guelatao",
+    "Línea": "A",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Los Reyes",
+    "Línea": "A",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "Pantitlán",
+    "Línea": "A",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "Santa Marta",
+    "Línea": "A",
+    "Orden":"7"
+  },
+  {
+    "Nombre": "Peñón Viejo",
+    "Línea": "A",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "La Paz",
+    "Línea": "A",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Tepalcates",
+    "Línea": "A",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "Bosque de Aragón",
+    "Línea": "B",
+    "Orden":"9"
+  },
+  {
+    "Nombre": "Buenavista",
+    "Línea": "B",
+    "Orden":"20"
+  },
+  {
+    "Nombre": "Ciudad Azteca",
+    "Línea": "B",
+    "Orden":"0"
+  },
+  {
+    "Nombre": "Deportivo Oceanía",
+    "Línea": "B",
+    "Orden":"10"
+  },
+  {
+    "Nombre": "Ecatepec",
+    "Línea": "B",
+    "Orden":"3"
+  },
+  {
+    "Nombre": "Garibaldi",
+    "Línea": "B",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "Guerrero",
+    "Línea": "B",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Impulsora",
+    "Línea": "B",
+    "Orden":"6"
+  },
+  {
+    "Nombre": "Lagunilla",
+    "Línea": "B",
+    "Orden":"17"
+  },
+  {
+    "Nombre": "Muzquiz",
+    "Línea": "B",
+    "Orden":"4"
+  },
+  {
+    "Nombre": "Nezahualcóyotl",
+    "Línea": "B",
+    "Orden":"7"
+  },
+  {
+    "Nombre": "Oceanía",
+    "Línea": "B",
+    "Orden":"11"
+  },
+  {
+    "Nombre": "Ricardo Flores Magón",
+    "Línea": "B",
+    "Orden":"13"
+  },
+  {
+    "Nombre": "Río de los Remedios",
+    "Línea": "B",
+    "Orden":"5"
+  },
+  {
+    "Nombre": "Romero Rubio",
+    "Línea": "B",
+    "Orden":"12"
+  },
+  {
+    "Nombre": "San Lázaro",
+    "Línea": "B",
+    "Orden":"14"
+  },
+  {
+    "Nombre": "Tepito",
+    "Línea": "B",
+    "Orden":"16"
+  },
+  {
+    "Nombre": "Villa de Aragón",
+    "Línea": "B",
+    "Orden":"8"
+  },
+  {
+    "Nombre": "Morelos",
+    "Línea": "B",
+    "Orden":"15"
+  },
+  {
+    "Nombre": "Olímpica",
+    "Línea": "B",
+    "Orden":"2"
+  },
+  {
+    "Nombre": "Plaza Aragón",
+    "Línea": "B",
+    "Orden":"1"
+  },
+  {
+    "Nombre": "Mexicaltzingo",
+    "Línea": "12",
+    "Orden": "7"
+  },
+  {
+    "Nombre": "Atlalilco",
+    "Línea": "12",
+    "Orden": "8"
+  },
+  {
+    "Nombre": "Hospital 20 de Noviembre",
+    "Línea": "12",
+    "Orden": "2"
+  },
+  {
+    "Nombre": "Tezonco",
+    "Línea": "12",
+    "Orden": "14"
+  },
+  {
+    "Nombre": "Tláhuac",
+    "Línea": "12",
+    "Orden": "19"
+  },
+  {
+    "Nombre": "Eje Central",
+    "Línea": "12",
+    "Orden": "5"
+  },
+  {
+    "Nombre": "Zapotitlán",
+    "Línea": "12",
+    "Orden": "17"
+  },
+  {
+    "Nombre": "Zapata",
+    "Línea": "12",
+    "Orden": "3"
+  },
+  {
+    "Nombre": "Olivos",
+    "Línea": "12",
+    "Orden": "15"
+  },
+  {
+    "Nombre": "Mixcoac",
+    "Línea": "12",
+    "Orden": "0"
+  },
+  {
+    "Nombre": "Nopalera",
+    "Línea": "12",
+    "Orden": "16"
+  },
+  {
+    "Nombre": "Ermita",
+    "Línea": "12",
+    "Orden": "6"
+  },
+  {
+    "Nombre": "Culhuacán",
+    "Línea": "12",
+    "Orden": "9"
+  },
+  {
+    "Nombre": "Parque de los Venados",
+    "Línea": "12",
+    "Orden": "4"
+  },
+  {
+    "Nombre": "San Andrés Tomatlán",
+    "Línea": "12",
+    "Orden": "10"
+  },
+  {
+    "Nombre": "Lomas Estrella",
+    "Línea": "12",
+    "Orden": "11"
+  },
+  {
+    "Nombre": "Insurgentes Sur",
+    "Línea": "12",
+    "Orden": "1"
+  },
+  {
+    "Nombre": "Periférico Oriente",
+    "Línea": "12",
+    "Orden": "13"
+  }
+]

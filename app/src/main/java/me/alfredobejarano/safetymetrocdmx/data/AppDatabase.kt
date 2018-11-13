@@ -15,7 +15,7 @@ import me.alfredobejarano.safetymetrocdmx.BuildConfig
  * @since November 12, 2018 - 13:57
  * @version 1.0
  **/
-@Database(version = 1, entities = [Crime::class, Station::class], exportSchema = false)
+@Database(version = 5, entities = [Crime::class, Station::class], exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun getCrimeDao(): CrimeDao
     abstract fun getStationDao(): StationDao

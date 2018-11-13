@@ -36,6 +36,7 @@ class StationRepository
      * @param stations The crimes to be saved
      */
     fun saveStations(stations: List<Station>) = stations.forEach {
+        it.id = "${it.name}-${it.order}"
         dao.insert(it)
     }
 
@@ -54,7 +55,7 @@ class StationRepository
                     query.isEmpty() -> dao.read()
                     // Search the stations when the query has at least 4 characters.
                     query.length > QUERY_LENGTH_THRESHOLD -> dao.searchStationByName(query)
-                    // Return an empty list if the query doesn't match any of the other search criteria.
+                    // Return null if no other condition is met.
                     else -> null
                 }
             )

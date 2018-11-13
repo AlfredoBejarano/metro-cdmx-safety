@@ -3,6 +3,7 @@ package me.alfredobejarano.safetymetrocdmx.viewmodel
 import androidx.lifecycle.*
 import me.alfredobejarano.safetymetrocdmx.data.Station
 import me.alfredobejarano.safetymetrocdmx.data.StationRepository
+import me.alfredobejarano.safetymetrocdmx.utilities.runOnIOThread
 import javax.inject.Inject
 
 /**
